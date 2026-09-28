@@ -1,0 +1,16 @@
+# Restricted case-level data: never commit
+Malaria_10Y*.csv
+malaria_province_monthly_2559_2568_local.csv
+
+# Generated outputs
+outputs_model27_*/
+
+# Per-year files and raw HTML from download_malaria_monthly_2568.py
+# (the combined malaria_province_monthly_2559_2568.csv is committed)
+malaria_province_monthly_25??.csv
+malaria_25??_monthly_total.csv
+malaria_*_raw/
+
+# Python and Jupyter caches
+__pycache__/
+.ipynb_checkpoints/
